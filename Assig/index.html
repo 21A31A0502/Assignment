@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Outfit Builder</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <h1>Outfit Builder</h1>
+  <div class="builder">
+    <div class="clothing-items" id="clothing-items">
+      <img src="shirt.png" class="draggable" draggable="true" data-item="Shirt" />
+      <img src="pants.png" class="draggable" draggable="true" data-item="Pants" />
+      <img src="shoes.png" class="draggable" draggable="true" data-item="Shoes" />
+    </div>
+    <div class="canvas" id="canvas">
+      <span class="placeholder">Drop items here</span>
+    </div>
+  </div>
+  <button id="addToCart">Add to Cart</button>
+
+  <script src="script.js"></script>
+</body>
+</html>
